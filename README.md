@@ -55,10 +55,13 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 | **`FAIXA_SEDE`** | Indica se a sede municipal se encontra dentro da Faixa de Fronteira. | Binário (Booleano/0 ou 1) |
 | **`CID_GEMEA`** | Indica se a sede municipal é uma Cidade Gêmea. Caso preenchido, sim. | Binário (Booleano/Sim ou Vazio) |
 
-### 3. Modelagem
+### 3. Modelagem dos dados
+* Esquema em Estrela com tabelas fato e dimensões.
+[Compreendendo o esquema em estrela](https://www.databricks.com/br/glossary/star-schema)
 
-
-
+### 4. Carga dos dados
+* Utilizaremos a arquitetura medalhão.
+[O que é uma arquitetura medallion?](https://www.databricks.com/br/glossary/medallion-architecture)
 
 
 

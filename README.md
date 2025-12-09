@@ -12,7 +12,7 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 
 * **Perguntas a serem respondidas:**
 1. Quais os cinco munícipios com o maior valor total pago pelo BPC?
-2. Quais os cinco estados com o maior valor total pago pelo BPC?
+2. Quais as cinco unidades da federação com o maior valor total pago pelo BPC?
 3. Qual a lista decrescente por região do Brasil de valor total pago pelo BPC?
 4. Qual o valor total pago pelo BPC?
 5. Há algum município que não ocorreu pagamento mensal pelo BPC?

@@ -69,7 +69,19 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 Identificamos algumas colunas com valores nulos, porém, isso não é um problema para a análise a ser realizada.
 | Coluna | Motivação para valor **`nulo`** | Fonte |
 | :--- | :--- | :--- |
-| **`bpc_pcd_val`** | **Valor total** não pago para beneficiários PcD do BPC no período. | Beneficiarios_BPC-2025.csv |
-| **`bpc_idoso_val`** | **Valor total** não pago para beneficiários Idosos do BPC no período. | Beneficiarios_BPC-2025.csv |
+| **`bpc_pcd_val`** | Não houve pago para beneficiários PcD do BPC no período. | *Beneficiarios_BPC-2025.csv* |
+| **`bpc_idoso_val`** | Não houve pago para beneficiários Idosos do BPC no período. | *Beneficiarios_BPC-2025.csv* |
+| **`CD_RGI`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
+| **`NM_RGI`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
+| **`CD_RGINT`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
+| **`NM_RGINT`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
+| **`FAIXA_SEDE`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
+| **`CID_GEMEA`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
 
+* b. Respondendo as perguntas citadas no seção **Objetivo**
+1. Quais os cinco munícipios com o maior valor total pago pelo BPC?
+2. Quais as cinco unidades da federação com o maior valor total pago pelo BPC?
+3. Qual a lista decrescente por região do Brasil de valor total pago pelo BPC?
+4. Qual o valor total pago pelo BPC?
+5. Há algum município que não ocorreu pagamento mensal pelo BPC?
 

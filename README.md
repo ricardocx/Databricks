@@ -3,7 +3,8 @@
 ## Aluno: Ricardo Cortez
 Esse repositório contém os arquivos do Projeto MVP da disciplina. 
 
-* **Objetivo:**
+### 1. Objetivo
+* **Descrição:**
 O projeto consiste em analisar os dados de pagamento do **Benefício de Prestação Continuada - BPC** por município pagador, sendo os dados disponibilizados de Janeiro a Outubro de 2025.
 
 * **Informação:**
@@ -17,7 +18,7 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 4. Qual o valor total pago pelo BPC?
 5. Há algum município que não ocorreu pagamento mensal pelo BPC?
 
-* **Datasets:**
+### 2. Conjunto de dados
 * O arquivo *Beneficiarios_BPC-2025.csv* pode ser baixado do site [gov.br](https://aplicacoes.mds.gov.br/sagi/servicos/misocial?fq=anomes_s:2025*&fq=tipo_s:mes_mu&wt=csv&q=*&rows=100000000&sort=anomes_s%20desc,%20codigo_ibge%20asc&fl=ibge:codigo_ibge,anomes:anomes_s,bpc_ben:bpc_ben_i,bpc_pcd_ben:bpc_pcd_ben_i,bpc_idoso_ben:bpc_idoso_ben_i,bpc_pcd_val:bpc_pcd_val_s,bpc_idoso_val:bpc_idoso_val_s,bpc_val:bpc_val_s&fq=bpc_pcd_ben_i%3A*)
 
 | Campo (Coluna) | Descrição | Formato/Tipo |
@@ -54,7 +55,8 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 | **`FAIXA_SEDE`** | Indica se a sede municipal se encontra dentro da Faixa de Fronteira. | Binário (Booleano/0 ou 1) |
 | **`CID_GEMEA`** | Indica se a sede municipal é uma Cidade Gêmea. Caso preenchido, sim. | Binário (Booleano/Sim ou Vazio) |
 
-* Arquivo *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls*:
+### 3. Modelagem
+
 
 
 

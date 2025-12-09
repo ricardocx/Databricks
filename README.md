@@ -21,7 +21,7 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 ### 2. Conjunto de dados
 * O arquivo *Beneficiarios_BPC-2025.csv* pode ser baixado do site [gov.br](https://aplicacoes.mds.gov.br/sagi/servicos/misocial?fq=anomes_s:2025*&fq=tipo_s:mes_mu&wt=csv&q=*&rows=100000000&sort=anomes_s%20desc,%20codigo_ibge%20asc&fl=ibge:codigo_ibge,anomes:anomes_s,bpc_ben:bpc_ben_i,bpc_pcd_ben:bpc_pcd_ben_i,bpc_idoso_ben:bpc_idoso_ben_i,bpc_pcd_val:bpc_pcd_val_s,bpc_idoso_val:bpc_idoso_val_s,bpc_val:bpc_val_s&fq=bpc_pcd_ben_i%3A*)
 
-| Campo (Coluna) | Descrição | Formato/Tipo |
+| Coluna | Descrição | Formato/Tipo |
 | :--- | :--- | :--- |
 | **`ibge`** | Código IBGE do município ao qual o dado se refere. | Número Inteiro (Integer) |
 | **`anomes`** | Ano e mês de referência do dado. | Texto/Data (YYYYMM) |
@@ -34,7 +34,7 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 
 * O arquivo *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* pode ser baixado do site [ibge.gov.br](https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/municipios_da_faixa_de_fronteira/2024/Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls)
 
-| Campo (Coluna) | Descrição | Formato/Tipo |
+| Coluna | Descrição | Formato/Tipo |
 | :--- | :--- | :--- |
 | **`CD_MUN`** | Código do Município (IBGE) | Número Inteiro (Integer) |
 | **`CD_REGIAO`** | Código da Região (Grande Região) | Número Inteiro (Integer) |
@@ -56,12 +56,20 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 | **`CID_GEMEA`** | Indica se a sede municipal é uma Cidade Gêmea. Caso preenchido, sim. | Binário (Booleano/Sim ou Vazio) |
 
 ### 3. Modelagem dos dados
-* Esquema em Estrela com tabelas fato e dimensões.
+* Utilizou-se o Esquema em Estrela com tabelas fato e dimensões.
 [Compreendendo o esquema em estrela](https://www.databricks.com/br/glossary/star-schema)
 
 ### 4. Carga dos dados
-* Utilizaremos a arquitetura medalhão.
+* Utilizou-se a arquitetura medalhão.
 [O que é uma arquitetura medallion?](https://www.databricks.com/br/glossary/medallion-architecture)
 
+### 5. Análise dos dados
+* a. Qualidade dos dados
+
+Identificamos algumas colunas com valores nulos, porém, isso não é um problema para a análise a ser realizada.
+| Coluna | Motivação para valor **`nulo`** | Fonte |
+| :--- | :--- | :--- |
+| **`bpc_pcd_val`** | **Valor total** não pago para beneficiários PcD do BPC no período. | Beneficiarios_BPC-2025.csv |
+| **`bpc_idoso_val`** | **Valor total** não pago para beneficiários Idosos do BPC no período. | Beneficiarios_BPC-2025.csv |
 
 

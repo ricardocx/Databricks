@@ -85,3 +85,5 @@ Identificou-se algumas colunas com valores nulos, porém, isso não é um proble
 4. Qual o valor total pago pelo BPC?
 5. Há algum município que não ocorreu pagamento mensal pelo BPC?
 
+### 6. Autoavaliação
+* Durante o projeto 

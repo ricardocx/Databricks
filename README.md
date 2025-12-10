@@ -38,17 +38,17 @@ Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/da
 | Coluna | Descrição | Formato/Tipo |
 | :--- | :--- | :--- |
 | **`CD_MUN`** | Código do Município (IBGE) | Número Inteiro (Integer) |
-| **`CD_REGIAO`** | Código da Região (Grande Região) | Número Inteiro (Integer) |
-| **`CD_UF`** | Código da Unidade da Federação (Estado) | Número Inteiro (Integer) |
-| **`CD_RGI`** | Código da Região Imediata (Antiga Microrregião) | Número Inteiro (Integer) |
-| **`CD_RGINT`** | Código da Região Intermediária (Antiga Mesorregião) | Número Inteiro (Integer) |
 | **`NM_MUN`** | Nome do Município | Texto (String) |
-| **`NM_RG`** | Nome da Região (Grande Região) | Texto (String) |
-| **`SIGLA_RG`** | Sigla da Região | Texto (String) |
+| **`CD_RGI`** | Código da Região Imediata (Antiga Microrregião) | Número Inteiro (Integer) |
 | **`NM_RGI`** | Nome da Região Imediata | Texto (String) |
+| **`CD_RGINT`** | Código da Região Intermediária (Antiga Mesorregião) | Número Inteiro (Integer) |
 | **`NM_RGINT`** | Nome da Região Intermediária | Texto (String) |
+| **`CD_UF`** | Código da Unidade da Federação (Estado) | Número Inteiro (Integer) |
 | **`NM_UF`** | Nome da Unidade da Federação (Estado) | Texto (String) |
 | **`SIGLA_UF`** | Sigla da Unidade da Federação (Estado) | Texto (String) |
+| **`CD_REGIAO`** | Código da Região (Grande Região) | Número Inteiro (Integer) |
+| **`NM_REGIAO`** | Nome da Região (Grande Região) | Texto (String) |
+| **`SIGLA_RG`** | Sigla da Região | Texto (String) |
 | **`AREA_TOT`** | Área Total do Município em km² | Decimal (Float) |
 | **`TOCA_LIM`** | Indica se o limite municipal toca o limite internacional. | Binário (Booleano/0 ou 1) |
 | **`AREA_INT`** | Área em km² do município que se encontra dentro da Faixa de Fronteira. | Decimal (Float) |

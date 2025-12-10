@@ -1,5 +1,6 @@
-# PUC-RIO - MBA Ciência de Dados e Analytics
+# PUC-RIO | MBA Ciência de Dados e Analytics
 ## Disciplina: Engenharia de Dados
+## Atividade: MVP
 ## Aluno: Ricardo Cortez
 Esse repositório contém os arquivos do Projeto MVP da disciplina. 
 

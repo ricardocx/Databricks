@@ -6,11 +6,21 @@ Esse repositório contém os arquivos do Projeto MVP da disciplina.
 
 ### 1. Objetivo
 * **Descrição:**
-O projeto consiste em analisar os dados de pagamento do **Benefício de Prestação Continuada - BPC** por município pagador, sendo os dados disponibilizados de Janeiro a Outubro de 2025.
+O projeto consiste em analisar os dados de pagamento do **Benefício de Prestação Continuada - BPC*** por município** pagador, sendo os dados disponibilizados de Janeiro a Outubro de 2025.
 
-* **Informação:**
-O **Benefício de Prestação Continuada- BPC** da Lei Orgânica da Assistência Social- LOAS (BPC) é a garantia de um salário mínimo mensal ao idoso acima de 65 anos ou à pessoa com deficiência de qualquer idade com impedimentos de natureza física, mental, intelectual ou sensorial de longo prazo (aquele que produza efeitos pelo prazo mínimo de 2 (dois) anos), que o impossibilite de participar de forma plena e efetiva na sociedade, em igualdade de condições com as demais pessoas.  
+* **Informações:**
+
+  *O **Benefício de Prestação Continuada- BPC** da Lei Orgânica da Assistência Social- LOAS (BPC) é a garantia de um salário mínimo mensal ao idoso acima de 65 anos ou à pessoa com deficiência de qualquer idade com impedimentos de natureza física, mental, intelectual ou sensorial de longo prazo (aquele que produza efeitos pelo prazo mínimo de 2 (dois) anos), que o impossibilite de participar de forma plena e efetiva na sociedade, em igualdade de condições com as demais pessoas.  
 Retirado de [Dabos Abertos - BPC por município pagador](https://dados.gov.br/dados/conjuntos-dados/bpc-por-municipio-pagador).
+
+  **Os municípios analisados são os **Municípios da Faixa de Fronteira e Cidades Gêmeas**.  
+
+  a) Por **Faixa de Fronteira** entende-se “a faixa de até cento e cinquenta quilômetros de largura, ao longo das fronteiras terrestres”, conforme a Constituição Federal, artigo 20 – parágrafo 2º. Com base nesta definição, que recepciona os parâmetros da Lei N° 6.634, de 02/05/1979, o IBGE, para fins geocientíficos e estatísticos, identifica e representa os 588 municípios brasileiros com área total ou parcialmente localizada na Faixa de Fronteira distribuídos em 11 estados, que é a faixa interna de 150 km de largura, paralela à linha divisória terrestre do território nacional.  
+
+  b) O IBGE também destaca nesse conjunto, a relação de 33 **cidades gêmeas** nacionais, segundo o Art. 1 da Portaria nº 2.507, de 05/10/2021 do Ministério do Desenvolvimento Regional/Gabinete do Ministro:  
+“Art. 1º Serão considerados cidades gêmeas os Municípios cortados pela linha de fronteira, seja essa seca ou fluvial, articulada ou não por obra de infraestrutura, que apresentem grande potencial de integração econômica e cultural, podendo ou não apresentar uma conurbação ou semi-conurbação com uma localidade do país vizinho, assim como manifestações ”condensadas” dos problemas característicos da fronteira, que aí adquirem maior densidade, com efeitos diretos sobre o desenvolvimento regional e a cidadania.”  
+Ou seja, aquelas que ficam uma ao lado da outra, mas em países diferentes que exigem aplicação de políticas públicas específicas para atender o grande potencial de integração econômica e cultural, bem como enfrentar os problemas específicos de cidades fronteiriças.  
+Retirado de [ibge.gov.br](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/24073-municipios-da-faixa-de-fronteira.ht-ml?=&t=o-que-e).
 
 * **Perguntas a serem respondidas:**
 1. Quais os cinco munícipios com o maior valor total pago pelo BPC?

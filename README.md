@@ -121,7 +121,7 @@ A tabela 1 lista a relação de municípios:
 | **`AREA_INT`** | Área em km² do município que se encontra dentro da Faixa de Fronteira. | Decimal (Float) |
 | **`PORC_INT`** | Porcentagem da área municipal que se encontra dentro da Faixa de Fronteira. | Decimal (Float) |
 | **`FAIXA_SEDE`** | Indica se a sede municipal se encontra dentro da Faixa de Fronteira. | Binário (Booleano/Não ou Sim) |
-| **`CID_GEMEA`** | Indica se a sede municipal é uma Cidade Gêmea. Caso preenchido, sim. | Binário (Booleano/Sim ou Vazio) |
+| **`CID_GEMEA`** | Indica se a sede municipal é uma Cidade Gêmea. Caso preenchido com a Portaria do Ministério. | Texto (String) |
 
 ### 3. Modelagem dos dados
 * Utilizou-se o Esquema em Estrela com tabelas fato e dimensões.

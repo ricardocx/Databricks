@@ -117,10 +117,10 @@ A tabela 1 lista a relação de municípios:
 | **`NM_REGIAO`** | Nome da Região (Grande Região) | Texto (String) |
 | **`SIGLA_RG`** | Sigla da Região | Texto (String) |
 | **`AREA_TOT`** | Área Total do Município em km² | Decimal (Float) |
-| **`TOCA_LIM`** | Indica se o limite municipal toca o limite internacional. | Binário (Booleano/0 ou 1) |
+| **`TOCA_LIM`** | Indica se o limite municipal toca o limite internacional. | Binário (Booleano/NÃO ou SIM) |
 | **`AREA_INT`** | Área em km² do município que se encontra dentro da Faixa de Fronteira. | Decimal (Float) |
 | **`PORC_INT`** | Porcentagem da área municipal que se encontra dentro da Faixa de Fronteira. | Decimal (Float) |
-| **`FAIXA_SEDE`** | Indica se a sede municipal se encontra dentro da Faixa de Fronteira. | Binário (Booleano/0 ou 1) |
+| **`FAIXA_SEDE`** | Indica se a sede municipal se encontra dentro da Faixa de Fronteira. | Binário (Booleano/Não ou Sim) |
 | **`CID_GEMEA`** | Indica se a sede municipal é uma Cidade Gêmea. Caso preenchido, sim. | Binário (Booleano/Sim ou Vazio) |
 
 ### 3. Modelagem dos dados

@@ -137,8 +137,8 @@ A tabela 1 lista a relação de municípios:
 Identificou-se algumas colunas com valores nulos, porém, isso não é um problema para a análise a ser realizada.
 | Coluna | Motivação para valor **`nulo`** | Fonte |
 | :--- | :--- | :--- |
-| **`bpc_pcd_val`** | Não houve pago para beneficiários PcD do BPC no período. | *Beneficiarios_BPC-2025.csv* |
-| **`bpc_idoso_val`** | Não houve pago para beneficiários Idosos do BPC no período. | *Beneficiarios_BPC-2025.csv* |
+| **`bpc_pcd_val`** | Não houve pagamento para beneficiários PcD do BPC no período. | *Beneficiarios_BPC-2025.csv* |
+| **`bpc_idoso_val`** | Não houve pagamento para beneficiários Idosos do BPC no período. | *Beneficiarios_BPC-2025.csv* |
 | **`CD_RGI`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
 | **`NM_RGI`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
 | **`CD_RGINT`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |

@@ -84,7 +84,7 @@ A tabela 1 lista a relação de municípios:
 2. Quais as cinco unidades da federação com o maior valor total pago pelo BPC?
 3. Qual a lista decrescente por região do Brasil de valor total pago pelo BPC?
 4. Qual o valor total pago pelo BPC?
-5. Há algum município que não ocorreu pagamento mensal pelo BPC?
+5. Há algum município que não realizou pagamento mensal pelo BPC?
 
 ### 2. Conjunto de dados
 * O arquivo *Beneficiarios_BPC-2025.csv* pode ser baixado do site [gov.br](https://aplicacoes.mds.gov.br/sagi/servicos/misocial?fq=anomes_s:2025*&fq=tipo_s:mes_mu&wt=csv&q=*&rows=100000000&sort=anomes_s%20desc,%20codigo_ibge%20asc&fl=ibge:codigo_ibge,anomes:anomes_s,bpc_ben:bpc_ben_i,bpc_pcd_ben:bpc_pcd_ben_i,bpc_idoso_ben:bpc_idoso_ben_i,bpc_pcd_val:bpc_pcd_val_s,bpc_idoso_val:bpc_idoso_val_s,bpc_val:bpc_val_s&fq=bpc_pcd_ben_i%3A*)

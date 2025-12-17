@@ -149,7 +149,7 @@ Identificou-se algumas colunas com valores nulos, porém, isso não é um proble
 * b. Respondendo as perguntas citadas na seção **Objetivo**
 1. Quais os cinco munícipios com o maior valor total pago pelo BPC?
 2. Quais as cinco unidades da federação com o maior valor total pago pelo BPC?
-3. Qual a lista decrescente por região do Brasil de valor total pago pelo BPC?
+3. Qual o valor total pago por região do Brasil pelo BPC?
 4. Qual o valor total pago pelo BPC?
 5. Há algum município que não ocorreu pagamento mensal pelo BPC?
 

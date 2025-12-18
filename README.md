@@ -153,5 +153,9 @@ Identificou-se algumas colunas com valores nulos, porém, isso não é um proble
 4. Qual o valor total pago pelo BPC?
 5. Há algum município que não ocorreu pagamento mensal pelo BPC?
 
-### 6. Autoavaliação
+### 6. Notebooks
+* Esses são os notebooks que criaram o ambiente no Databricks.  
+  [01-Catalogo_bpc](https://github.com/ricardocx/Databricks/blob/main/01-Catalogo_bpc.ipynb)
+
+### 7. Autoavaliação
 * Durante o projeto 

@@ -132,7 +132,7 @@ A tabela 1 lista a relação de municípios:
 [O que é uma arquitetura medallion?](https://www.databricks.com/br/glossary/medallion-architecture)
 
 ### 5. Análise dos dados
-* a. Qualidade dos dados
+* Qualidade dos dados
 
 Identificou-se algumas colunas com valores nulos, porém, isso não é um problema para a análise a ser realizada.
 | Coluna | Motivação para valor **`nulo`** | Fonte |
@@ -146,13 +146,6 @@ Identificou-se algumas colunas com valores nulos, porém, isso não é um proble
 | **`FAIXA_SEDE`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
 | **`CID_GEMEA`** | campo não será utilizado na análise | *Mun_Faixa_de_Fronteira_Cidades_Gemeas_2024.xls* |
 
-* b. Respondendo as perguntas citadas na seção **Objetivo**
-1. Quais os cinco munícipios com o maior valor total pago pelo BPC?
-2. Quais as cinco unidades da federação com o maior valor total pago pelo BPC?
-3. Qual o valor total pago por região do Brasil pelo BPC?
-4. Qual o valor total pago pelo BPC?
-5. Há algum município que não ocorreu pagamento mensal pelo BPC?
-
 ### 6. Notebooks
 * Esses são os notebooks que criaram o ambiente no Databricks.  
   1. Criar o [Catálogo bpc](https://github.com/ricardocx/Databricks/blob/main/01-Catalogo_bpc.ipynb)  
@@ -163,4 +156,6 @@ Identificou-se algumas colunas com valores nulos, porém, isso não é um proble
   6. Responder as [perguntas](https://github.com/ricardocx/Databricks/blob/main/06-Responder_perguntas.ipynb)
 
 ### 7. Autoavaliação
-* Durante o projeto 
+* O primeiro desafio foi escolher uma base de dados que fizesse sentido para mim e como me identifico com as questões sociais, realizar um projeto sobre o pagamento do **Benefício de Prestação Continuada- BPC** me motivou bastante. A escolha pelos **Municípios da Faixa de Fronteira e Cidades Gêmeas** foi bem casual e me proporcionou aprender sobre uma parte do Brasil bem interessante.
+* Ler a documentação contida nos links informados, pensar nos insights possíveis e estruturar o projeto foi bastante desafiador.
+* Por último, foi muito prazeroso aprender sobre a ferramenta Databricks, aprimorar o conhecimento sobre PySpark e SQL, além de fazer uso da Inteligência Artificial como assistente de aprendizagem e para o desenvolvimento assistido dos códigos nos notebooks.

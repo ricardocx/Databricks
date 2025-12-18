@@ -155,7 +155,12 @@ Identificou-se algumas colunas com valores nulos, porém, isso não é um proble
 
 ### 6. Notebooks
 * Esses são os notebooks que criaram o ambiente no Databricks.  
-  [01-Catalogo_bpc](https://github.com/ricardocx/Databricks/blob/main/01-Catalogo_bpc.ipynb)
+  1. Criar o [Catálogo bpc](https://github.com/ricardocx/Databricks/blob/main/01-Catalogo_bpc.ipynb)  
+  2. Criar o [Esquema staging](https://github.com/ricardocx/Databricks/blob/main/02-Esquema_staging.ipynb)  
+  3. Criar o [Esquema bronze](https://github.com/ricardocx/Databricks/blob/main/03-Esquema_bronze.ipynb)  
+  4. Criar o [Esquema silver](https://github.com/ricardocx/Databricks/blob/main/04-Esquema_silver.ipynb)  
+  5. Criar o [Esquema gold](https://github.com/ricardocx/Databricks/blob/main/05-Esquema_gold.ipynb)  
+  6. Responder as [perguntas](https://github.com/ricardocx/Databricks/blob/main/06-Responder_perguntas.ipynb)
 
 ### 7. Autoavaliação
 * Durante o projeto 
